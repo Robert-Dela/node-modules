@@ -1,0 +1,24 @@
+{
+  "name": "node-modules",
+  "version": "1.0.0",
+  "description": "A backend server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-modules"
+  },
+  "author": "Robert Deladem Dakey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
